@@ -16,10 +16,10 @@ for (let i = 0; i <amount ; i++){
 populateBoard(16);
 
 function changeSize(input) {
-    if (input >= 2 && input <= 150) {
+    if (input >= 2 && input <= 100) {
         populateBoard(input);
       } else {
-        alert("too many don't exceed 150")
+        alert("too many don't exceed 100")
       }
   }
   let color = 'black'
